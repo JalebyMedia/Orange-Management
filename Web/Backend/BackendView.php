@@ -35,7 +35,7 @@ class BackendView extends View
      * @var View
      * @since 1.0.0
      */
-    protected $nav = null;
+    protected ?View $nav = null;
 
     /**
      * User profile.
@@ -43,7 +43,7 @@ class BackendView extends View
      * @var Profile
      * @since 1.0.0
      */
-    protected $profile = null;
+    protected ?Profile $profile = null;
 
     /**
      * Organizations.
@@ -51,7 +51,7 @@ class BackendView extends View
      * @var Unit[]
      * @since 1.0.0
      */
-    protected $organizations = null;
+    protected array $organizations = [];
 
     /**
      * Set navigation view.

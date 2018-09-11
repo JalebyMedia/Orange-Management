@@ -51,7 +51,7 @@ class ConsoleApplication extends ApplicationAbstract
      * @var array
      * @since 1.0.0
      */
-    private $config = [];
+    private array $config = [];
 
     /**
      * Constructor.

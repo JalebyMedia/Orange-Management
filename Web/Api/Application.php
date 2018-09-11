@@ -64,7 +64,7 @@ final class Application
      * @var WebApplication
      * @since 1.0.0
      */
-    private $app = null;
+    private ?WebApplication $app = null;
 
     /**
      * Temp config.
@@ -72,7 +72,7 @@ final class Application
      * @var array
      * @since 1.0.0
      */
-    private $config = [];
+    private array $config = [];
 
     /**
      * Constructor.

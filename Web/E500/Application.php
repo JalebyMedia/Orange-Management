@@ -39,15 +39,15 @@ final class Application
      * @var WebApplication
      * @since 1.0.0
      */
-    private $app = null;
+    private ?WebApplication $app = null;
 
     /**
-     * Config.
+     * Temp config.
      *
      * @var array
      * @since 1.0.0
      */
-    private $config = null;
+    private array $config = [];
 
     /**
      * Constructor.
